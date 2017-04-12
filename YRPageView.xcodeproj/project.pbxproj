@@ -97,6 +97,7 @@
 		A7FE82E41E9DCAB000F5463E /* YRPageView */ = {
 			isa = PBXGroup;
 			children = (
+				A7FE83131E9DCAD100F5463E /* Sources */,
 				A7FE82E51E9DCAB000F5463E /* AppDelegate.swift */,
 				A7FE82E71E9DCAB000F5463E /* ViewController.swift */,
 				A7FE82E91E9DCAB000F5463E /* Main.storyboard */,
@@ -123,6 +124,13 @@
 				A7FE83071E9DCAB100F5463E /* Info.plist */,
 			);
 			path = YRPageViewUITests;
+			sourceTree = "<group>";
+		};
+		A7FE83131E9DCAD100F5463E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -413,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YRPageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yr.YRPageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = YRPageView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yr.YRPageView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
