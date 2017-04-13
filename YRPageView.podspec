@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary      = "A PageView."
 
   s.homepage     = "https://github.com/ruiying123/YRPageView.git"
-  s.license      = "MIT"
+  s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "yangrui" => "1075551032@qq.com" }
 
   s.platform     = :ios, "8.0"
